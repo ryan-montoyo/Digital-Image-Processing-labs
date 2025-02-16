@@ -23,3 +23,4 @@ plt.imshow(Isub, cmap="gray")
 plt.title("Defects")
 
 plt.show()
+

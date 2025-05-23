@@ -94,6 +94,10 @@ for file in img_files:
 
     final = best_img
 
+    # # Save the final contrast-enhanced image
+    # output_path = os.path.join(img_dir, f'final_{file}')
+    # cv2.imwrite(output_path, final)
+
     # Plot all 7 stages
     plt.figure(figsize=(20, 8))
     plt.suptitle(f'Processing: {file}', fontsize=16)
